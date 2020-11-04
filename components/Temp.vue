@@ -22,6 +22,10 @@ export default {
 .temp {
     margin-top: 70px;
 
+    @media screen and (max-width:450px) {
+        margin-top: 0px
+    }
+
     h3 {
         font-weight: 300;
         font-size: 72px

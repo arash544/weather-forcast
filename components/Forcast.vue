@@ -22,6 +22,10 @@ export default {
 .img {
     margin-top: 70px;
 
+    @media screen and (max-width:450px) {
+        margin-top: 0px
+    }
+
     img {
         width: 170px;
         height: 170px;

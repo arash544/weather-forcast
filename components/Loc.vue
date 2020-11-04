@@ -1,6 +1,6 @@
 <template>
-<div class="row">
-    <div class="col city d-flex justify-content-center align-items-center ">
+<div class="row city">
+    <div class="col  d-flex justify-content-center align-items-center ">
         <h2>{{ cit }}</h2>
     </div>
 </div>
@@ -23,7 +23,11 @@ export default {
 
 <style lang="scss" scoped>
 .city {
-    margin-top: 100px;
+    padding-top: 100px;
+
+    @media screen and (max-width:450px) {
+        padding-top: 0px
+    }
 
     h2 {
         font-size: 82px;

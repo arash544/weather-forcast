@@ -54,11 +54,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// <div class="row d-flex justify-content-center align-items-center m-5">
-//     <Iconshape photo="pre.svg" txt="Pressure" :num="weather.current.pressure" />
-//     <Iconshape photo="wind.svg" txt="Wind" :num="weather.current.wind_speed" />
-//     <Iconshape photo="sun.svg" txt="Sunrise" :num="weather.current.feelslike" />
-// </div>
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -66,7 +61,7 @@ export default {
 
 .banner {
     background: url("/sky.jpg");
-    height: 100%;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
