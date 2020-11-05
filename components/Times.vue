@@ -21,7 +21,7 @@ export default {
 <style lang="scss" scoped>
 .time {
     // margin-top:20px
-    font-size: 15px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 200;
 }
 </style>

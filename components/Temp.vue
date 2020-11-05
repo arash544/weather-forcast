@@ -22,6 +22,10 @@ export default {
 .temp {
     margin-top: 70px;
 
+    @media screen and (max-width:1024px) {
+        margin-top: 200px;
+    }
+
     @media screen and (max-width:450px) {
         margin-top: 0px
     }

@@ -24,9 +24,9 @@ export default {
             required: true
         }
     },
-    created() {
-        console.log(this.sit);
-    }
+    // created() {
+    //     console.log(this.sit);
+    // }
 };
 </script>
 

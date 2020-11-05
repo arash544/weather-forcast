@@ -2,7 +2,8 @@
 <div class="col-4 flex-column d-flex justify-content-center align-items-center">
     <img :src="photo" alt="">
     <h6>{{txt}}</h6>
-    <span>{{num}}</span>
+    <span>{{num}} <span v-if="wind"> m/s</span><span v-if="pressure">°</span></span>
+
 </div>
 </template>
 
@@ -21,6 +22,14 @@ export default {
         num: {
             type: Number,
             required: true
+        },
+        wind: {
+            // type: String,
+            // required: true
+        },
+        pressure: {
+            // type: String,
+            // required: true
         },
     }
 }
